@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2016, 7:24:02 AM
+    Author     : F
+*/
+
+/*Button*/
+.b1 { -fx-opacity: 0.1; }
+.b1:hover { -fx-opacity: 1.0; }
+/*Pane*/
+.p1 {
+    -fx-border-color: red;
+    -fx-opacity: 0;
+}

@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2016, 2:48:47 PM
+    Author     : F
+*/
+
+/*******************************************************************************
+ *                                                                             *
+ * ScrollPane                                                                  *
+ *                                                                             *
+ ******************************************************************************/
+.scroll-pane  {
+    -fx-background-color: white;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: white;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * HBox                                                                        *
+ *                                                                             *
+ ******************************************************************************/
+
+#b1,#b2,#b3{
+    -fx-padding:20;
+    -fx-border-weight:1;
+    -fx-border-radius:2;
+    -fx-border-color: #dedede;
+}
+
+#b1:hover,#b2:hover,#b3:hover{
+/*    -fx-padding:20;
+    -fx-border-weight:1;
+    -fx-border-radius:2;
+    -fx-border-color: #dedede;*/
+    -fx-background-color:#dedede;
+}
+
+#kanan{
+    -fx-padding:20;
+    -fx-border-weight:1;
+    -fx-border-radius:2;
+    -fx-border-color: #dedede;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Label                                                                       *
+ *                                                                             *
+ ******************************************************************************/
+.label{
+    -fx-font: 20px "Tahoma";
+}
+
+#ket, #lbMandiri,#lbBNI,#lbBRI{
+    -fx-font: 15px "Segoe UI";
+}
+
+#lbBNI{
+    -fx-padding:0 0 0 30;
+}
+
+#lbBank, #lbPenerima, #lbCabang, #lbRekening, #ket2{
+    -fx-font:15px "Segoe UI";
+}
+
+#bank, #penerima, #cabang, #rekening{
+    -fx-font:15px "Segoe UI";
+    -fx-font-weight:BOLD;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Button                                                                      *
+ *                                                                             *
+ ******************************************************************************/
+#bayar{
+    -fx-pref-width : 190;
+    -fx-background-color:#f97b0c;
+    -fx-background-radius : 3;
+    -fx-font:16px "Segoe UI";
+    -fx-text-fill: white;
+}
+
+#bayar:hover{
+    -fx-text-fill: #f97b0c;
+    -fx-background-color:white;
+    -fx-border-radius:3;
+    -fx-border-width:1;
+    -fx-border-color:#f97b0c;
+}
+
+#bayar:armed{
+    -fx-pref-width : 190;
+    -fx-font:15px "Segoe UI";
+}

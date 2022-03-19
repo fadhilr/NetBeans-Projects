@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2016, 6:29:32 AM
+    Author     : F
+*/
+
+.bt{  //Class selector
+    -fx-xolor: black;
+    -fx-fill: blue;
+    -fx-padding: 4px;
+    -fx-background-color: #34c669;
+    -fx-font-size: 30px;
+    -fx-background-radius: 20px;
+}
+
+#bt1{ //Id selector
+    -fx-padding: 14 18 18 18;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+#bt1:hover{
+    -fx-background-color: rgb(255,0,0);
+}

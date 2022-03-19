@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2016, 10:36:29 AM
+    Author     : F
+*/
+
+@font-face {
+  font-family: Roboto;
+  src: url("../Resource/Material-Design-Iconic-Font.ttf");
+}
+
+.root{
+    -fx-background-color: #00AFF0;
+    /*499CD6;*/
+}
+
+#a1, #a2{
+    -fx-font: 23px Material-Design-Iconic-Font;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    /*#585858*/
+}
+
+#p1{
+    -fx-background-color: white;
+}
+
+.tab-pane *.tab-header-background {
+    /*-fx-background-color: -fx-outer-border, -fx-inner-border, derive(-fx-color, 100%);*/
+    /*-fx-effect: innershadow(two-pass-box , rgba(0,0,0,0.6) , 4, 0.0 , 0 , 0);*/
+    -fx-opacity: 0;
+}
+
+
+.tab-pane{
+    -fx-tab-min-width:90px;
+    -fx-tab-min-height:40px;
+}
+
+/*
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+*/
+
+.tab-pane .tab{
+    -fx-background-color: white;
+    /*#e6e6e6*/
+    -fx-background-radius: 0;
+}
+
+.tab-pane .tab:selected{
+    -fx-background-color: white;
+    /*#3c3c3c*/
+}
+/*
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+}
+*/
+/* Menghilangkan jarak di sebelah kiri tab*/
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+ /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overriden as 5 2 0 0 */
+}
+
+/** Size the combo-box button. */
+.combo-box {
+    -fx-pref-width: 200;
+}
+
+/** Size the combo-box drop down list. */
+.combo-box-popup > .list-view {
+    -fx-pref-width: 200;
+}
